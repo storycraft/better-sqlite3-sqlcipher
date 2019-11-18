@@ -1,6 +1,6 @@
 {
   "name": "better-sqlite3-sqlcipher",
-  "version": "5.4.3-1",
+  "version": "5.4.3-2",
   "description": "forked from JoshuaWise/better-sqlite3 for sqlcipher build.",
   "homepage": "http://github.com/JoshuaWise/better-sqlite3",
   "author": "Joshua Wise <joshuathomaswise@gmail.com>",
