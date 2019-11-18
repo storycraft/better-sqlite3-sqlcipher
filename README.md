@@ -2,6 +2,27 @@
 
 This package is a fork from **better-sqlite3 v5.4.3**, a custom build for sqlcipher on top of **sqlcipher v4.1.0** and **openssl v1.1.1c**
 
+## install
+
+```sh
+npm install better-sqlite3-sqlcipher
+```
+
+## usage
+
+```js
+const db = new Database('./data.db');
+db.pragma('key = "123"'); // if it was first time, it will set password
+db.prepare('CREATE TABLE IF NOT EXISTS people (id INTEGER PRIMARY KEY, name TEXT)').run();
+db.prepare('INSERT INTO people (name) VALUES (@name)').run({ name: 'jack' });
+
+// next time
+const db = new Database('./data.db');
+db.pragma('key = "1234"'); // if you pass another password
+db.prepare('SELECT * FROM people').all(); // this will throw
+```
+
+
 # better-sqlite3 [![Build Status](https://travis-ci.org/JoshuaWise/better-sqlite3.svg?branch=master)](https://travis-ci.org/JoshuaWise/better-sqlite3) [![Build status](https://ci.appveyor.com/api/projects/status/ilk8hb8v95m54v6f/branch/master?svg=true)](https://ci.appveyor.com/project/JoshuaWise/better-sqlite3/branch/master)
 
 
