@@ -1,0 +1,72 @@
+[settings]
+    arch=x86
+    build_type=Release
+    compiler=clang
+    compiler.version=5.0
+    os=Linux
+
+[requires]
+    zlib/1.Y.Z
+
+[options]
+    386=False
+    no_asm=False
+    no_bf=False
+    no_cast=False
+    no_des=False
+    no_dh=False
+    no_dsa=False
+    no_hmac=False
+    no_md2=False
+    no_md5=False
+    no_mdc2=False
+    no_rc2=False
+    no_rc4=False
+    no_rc5=False
+    no_rsa=False
+    no_sha=False
+    no_sse2=False
+    no_threads=False
+    no_zlib=False
+    shared=False
+
+[full_settings]
+    arch=x86
+    build_type=Release
+    compiler=clang
+    compiler.version=5.0
+    os=Linux
+
+[full_requires]
+    zlib/1.2.11@conan/stable:83dba0d44de5df94ef51020e3074d358fcc3da47
+
+[full_options]
+    386=False
+    no_asm=False
+    no_bf=False
+    no_cast=False
+    no_des=False
+    no_dh=False
+    no_dsa=False
+    no_hmac=False
+    no_md2=False
+    no_md5=False
+    no_mdc2=False
+    no_rc2=False
+    no_rc4=False
+    no_rc5=False
+    no_rsa=False
+    no_sha=False
+    no_sse2=False
+    no_threads=False
+    no_zlib=False
+    shared=False
+    zlib:fPIC=True
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+    16fefe5d022c96a5df05f9266b9dbeb5
+
+[env]
+

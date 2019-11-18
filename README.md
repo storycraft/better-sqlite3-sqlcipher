@@ -1,6 +1,6 @@
 # better-sqlite-sqlcipher
 
-This package is a fork from **better-sqlite3 v5.4.3**, a custom build for sqlcipher on top of **sqlcipher v4.1.0** and **openssl v1.1.1c**
+This package is a fork from **better-sqlite3 v5.4.3**, a custom build for sqlcipher on top of **sqlcipher v4.1.0** and **openssl v1.0.2s**
 
 ## install
 
