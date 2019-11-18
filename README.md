@@ -1,3 +1,7 @@
+# better-sqlite-sqlcipher
+
+This package is a fork from **better-sqlite3 v5.4.3**, a custom build for sqlcipher on top of **sqlcipher v4.1.0** and **openssl v1.1.1c**
+
 # better-sqlite3 [![Build Status](https://travis-ci.org/JoshuaWise/better-sqlite3.svg?branch=master)](https://travis-ci.org/JoshuaWise/better-sqlite3) [![Build status](https://ci.appveyor.com/api/projects/status/ilk8hb8v95m54v6f/branch/master?svg=true)](https://ci.appveyor.com/project/JoshuaWise/better-sqlite3/branch/master)
 
 
