@@ -1,6 +1,6 @@
 {
   "name": "better-sqlite3-sqlcipher",
-  "version": "5.4.3-2",
+  "version": "5.4.3-3",
   "description": "forked from JoshuaWise/better-sqlite3 for sqlcipher build.",
   "homepage": "http://github.com/JoshuaWise/better-sqlite3",
   "author": "Joshua Wise <joshuathomaswise@gmail.com>",
@@ -9,6 +9,7 @@
     "type": "git",
     "url": "git://github.com/JoshuaWise/better-sqlite3.git"
   },
+  "types": "index.d.ts",
   "dependencies": {
     "integer": "^2.1.0",
     "tar": "^4.4.10"
@@ -40,5 +41,16 @@
     "aggregate functions",
     "window functions",
     "database"
+  ],
+  "files": [
+    "lib/",
+    "deps/",
+    "openssl/",
+    "sqlcipher/",
+    "src/",
+    "dll/",
+    "binding.gyp",
+    "index.d.ts",
+    "integer.d.ts"
   ]
 }
