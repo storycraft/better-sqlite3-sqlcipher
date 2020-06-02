@@ -62,8 +62,8 @@ extern "C" {
 #ifndef OPENSSL_THREADS
 # define OPENSSL_THREADS
 #endif
-#ifndef OPENSSL_NO_DYNAMIC_ENGINE
-# define OPENSSL_NO_DYNAMIC_ENGINE
+#ifndef OPENSSL_NO_STATIC_ENGINE
+# define OPENSSL_NO_STATIC_ENGINE
 #endif
 
 /* The OPENSSL_NO_* macros are also defined as NO_* if the application
@@ -127,8 +127,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/c/users/vssadministrator/.conan/data/openssl/1.0.2s/conan/stable/package/3bff84c18afee5e2570789215ae2cd4f6165e1f0/lib/engines"
-#define OPENSSLDIR "/c/users/vssadministrator/.conan/data/openssl/1.0.2s/conan/stable/package/3bff84c18afee5e2570789215ae2cd4f6165e1f0/res"
+#define ENGINESDIR "/c/users/vssadministrator/.conan/data/openssl/1.0.2s/conan/stable/package/ed3990807aa68ea930f4bea9039b5aab54e4f685/lib/engines"
+#define OPENSSLDIR "/c/users/vssadministrator/.conan/data/openssl/1.0.2s/conan/stable/package/ed3990807aa68ea930f4bea9039b5aab54e4f685/res"
 #endif
 #endif
 

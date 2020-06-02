@@ -4,7 +4,7 @@
     compiler=gcc
     compiler.exception=dwarf2
     compiler.threads=posix
-    compiler.version=5
+    compiler.version=6
     os=Windows
 
 [requires]
@@ -34,7 +34,7 @@
     no_threads=False
     no_zlib=False
     openssldir=None
-    shared=False
+    shared=True
 
 [full_settings]
     arch=x86
@@ -42,11 +42,11 @@
     compiler=gcc
     compiler.exception=dwarf2
     compiler.threads=posix
-    compiler.version=5
+    compiler.version=6
     os=Windows
 
 [full_requires]
-    zlib/1.2.11@conan/stable:b3d31e7dea2e9b1fec3681da71ad07008778b602
+    zlib/1.2.11@conan/stable:f36a5dca98885cced7550637f06d81bb382596f5
 
 [full_options]
     386=False
@@ -72,7 +72,7 @@
     no_threads=False
     no_zlib=False
     openssldir=None
-    shared=False
+    shared=True
     zlib:minizip=False
     zlib:shared=False
 

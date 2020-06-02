@@ -3,8 +3,8 @@
 # Perl c_rehash script, scan all files in a directory
 # and add symbolic links to their hash values.
 
-my $dir = "/c/users/vssadministrator/.conan/data/openssl/1.0.2s/conan/stable/package/3bff84c18afee5e2570789215ae2cd4f6165e1f0/res";
-my $prefix = "/c/users/vssadministrator/.conan/data/openssl/1.0.2s/conan/stable/package/3bff84c18afee5e2570789215ae2cd4f6165e1f0";
+my $dir = "/c/users/vssadministrator/.conan/data/openssl/1.0.2s/conan/stable/package/ed3990807aa68ea930f4bea9039b5aab54e4f685/res";
+my $prefix = "/c/users/vssadministrator/.conan/data/openssl/1.0.2s/conan/stable/package/ed3990807aa68ea930f4bea9039b5aab54e4f685";
 
 my $openssl = $ENV{OPENSSL} || "openssl";
 my $pwd;
